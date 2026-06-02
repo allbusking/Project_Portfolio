@@ -6,7 +6,7 @@ import Lanyard from './components/Lanyard';
 import HorizontalScrollCards from './components/HorizontalScrollCards';
 import ExperienceCarousel from './components/ExperienceCarousel';
 import Aurora from './components/Aurora';
-import GitHubStats from './components/GithubStats';
+import GitHubStats from './components/GitHubStats';
 import TechStack from './components/TechStack';
 
 export default function App() {
