@@ -23,7 +23,7 @@ const HorizontalScrollCards = ({
       title: 'Portfolio Website {OLD}',
       description: 'My previous Portfolio Website, which is designed and developed myself using the basic web development technologies I learn. Features responsive design and smooth animations.',
       tags: ['HTML', 'CSS', 'JavaScript'],
-      image: 'Assets/1.jpg',
+      image: '../Assets/1.jpg',
       gradient: 'from-blue-600 to-cyan-500',
       link: '#'
     },
@@ -33,7 +33,7 @@ const HorizontalScrollCards = ({
       title: 'Ask Me Anything Anonymous',
       description: 'A Simple Backend application built on Next.js and took on to the production level using Vercel. Learnt a lot about authentication, database management, and deployment strategies.',
       tags: ['Next.js', 'Tailwind CSS', 'TypeScript', 'MongoDB'],
-      image: 'Assets/2.jpg',
+      image: '../Assets/2.jpg',
       gradient: 'from-purple-600 to-pink-500',
       link: '#'
     },
@@ -43,7 +43,7 @@ const HorizontalScrollCards = ({
       title: 'Invasion Gaming Event',
       description: 'A gaming event landing page, built on React.js with Tailwind CSS. Features immersive animations and modern UI design patterns.',
       tags: ['React', 'Tailwind CSS'],
-      image: 'Assets/3.jpg',
+      image: '../Assets/3.jpg',
       gradient: 'from-orange-500 to-red-600',
       link: '#'
     },
@@ -53,7 +53,7 @@ const HorizontalScrollCards = ({
       title: 's2apertre Open Source',
       description: 'Month long open source event by resourceio community. I was one of the frontend devs in this project, contributing to the UI/UX improvements and component library.',
       tags: ['React', 'JavaScript', 'Node.js', 'Express'],
-      image: 'Assets/4.webp',
+      image: '../Assets/4.webp',
       gradient: 'from-green-500 to-teal-500',
       link: '#'
     },
@@ -63,7 +63,7 @@ const HorizontalScrollCards = ({
       title: 'SIH-2024 Road Analysis',
       description: 'Masking Algorithm based on providing a detailed report on the differences of 2 road-construction images using computer vision and image processing techniques.',
       tags: ['Python', 'OpenCV', 'Flask'],
-      image: 'Assets/5.jpg',
+      image: '../Assets/5.jpg',
       gradient: 'from-yellow-500 to-orange-500',
       link: '#'
     },
@@ -73,7 +73,7 @@ const HorizontalScrollCards = ({
       title: 'Customer Relationship Management',
       description: 'Freelance project, a CRM application that helps in managing customer relationships, built on MERN stack, with multiple different features including analytics dashboard and reporting.',
       tags: ['MongoDB', 'Express', 'React', 'Node.js'],
-      image: 'Assets/6.jpg',
+      image: '../Assets/6.jpg',
       gradient: 'from-indigo-600 to-blue-500',
       link: '#'
     }
@@ -88,7 +88,7 @@ const HorizontalScrollCards = ({
       gradient: 'from-pink-600 to-rose-500',
       link: '#',
       year: '2024 - March',
-      image: 'Assets/1.jpg'
+      image: '../Assets/1.jpg'
     },
     {
       id: 8,
@@ -98,7 +98,7 @@ const HorizontalScrollCards = ({
       gradient: 'from-cyan-600 to-blue-500',
       link: '#',
       year: '2024 - April',
-      image: 'Assets/2.jpg'
+      image: '../Assets/2.jpg'
     },
     {
       id: 9,
@@ -108,7 +108,7 @@ const HorizontalScrollCards = ({
       gradient: 'from-violet-600 to-purple-500',
       link: '#',
       year: '2024 - April',
-      image: 'Assets/3.jpg'
+      image: '../Assets/3.jpg'
     },
     {
       id: 10,
@@ -118,7 +118,7 @@ const HorizontalScrollCards = ({
       gradient: 'from-emerald-600 to-teal-500',
       link: '#',
       year: '2024',
-      image: 'Assets/4.webp'
+      image: '../Assets/4.webp'
     },
     {
       id: 11,
@@ -128,7 +128,7 @@ const HorizontalScrollCards = ({
       gradient: 'from-blue-600 to-indigo-500',
       link: '#',
       year: '2024',
-      image: 'Assets/5.jpg'
+      image: '../Assets/5.jpg'
     },
     {
       id: 12,
@@ -138,7 +138,7 @@ const HorizontalScrollCards = ({
       gradient: 'from-fuchsia-600 to-pink-500',
       link: '#',
       year: '2024',
-      image: 'Assets/6.jpg'
+      image: '../Assets/6.jpg'
     }
   ];
 

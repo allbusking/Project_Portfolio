@@ -8,7 +8,7 @@ const springValues = {
 };
 
 export default function TiltedCard({
-  imageSrc = './Assets/anway.jpeg',
+  imageSrc = '../Assets/anway.jpeg',
   altText = 'Tilted card image',
   captionText = '',
   containerHeight = '300px',
