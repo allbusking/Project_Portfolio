@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import popSoundUrl from '../../Assets/Pop.mp3';
 
 const TechStack = () => {
   const [removedTechs, setRemovedTechs] = useState(new Set());
@@ -9,8 +10,7 @@ const TechStack = () => {
   const bubbleRefs = useRef({});
   const headingRef = useRef(null);
 
-  // 🎵 CHANGE YOUR SOUND HERE - Just paste your sound file URL
-  const POP_SOUND_URL = '../Assets/Pop.mp3'; // Change this to your sound file path or URL
+  const POP_SOUND_URL = popSoundUrl;
 
   useEffect(() => {
     // IntersectionObserver to trigger animation on scroll
@@ -134,7 +134,7 @@ const TechStack = () => {
 
   const handleTechClick = (techName) => {
     // Play pop sound
-    const popSound = new Audio('../Assets/Pop.mp3'); // Change this to your sound file path or URL
+    const popSound = new Audio(POP_SOUND_URL);
     popSound.volume = 0.3;
     popSound.play().catch(e => console.log('Audio play failed:', e));
     

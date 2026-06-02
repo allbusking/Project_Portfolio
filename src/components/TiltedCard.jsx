@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
 import { motion, useMotionValue, useSpring } from 'framer-motion';
+import anwayImage from '../../Assets/anway.jpeg';
 
 const springValues = {
   damping: 30,
@@ -8,7 +9,7 @@ const springValues = {
 };
 
 export default function TiltedCard({
-  imageSrc = '../Assets/anway.jpeg',
+  imageSrc = anwayImage,
   altText = 'Tilted card image',
   captionText = '',
   containerHeight = '300px',
